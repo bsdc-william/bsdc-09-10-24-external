@@ -77,8 +77,6 @@ function MobileDropdown() {
         <MenuIcon />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="mr-[2rem] border border-neutral-800 bg-neutral-950">
-        <DropdownMenuLabel>My Account</DropdownMenuLabel>
-        <DropdownMenuSeparator className="bg-neutral-800" />
         <DropdownMenuItem>Profile</DropdownMenuItem>
         <DropdownMenuItem>Billing</DropdownMenuItem>
         <DropdownMenuItem>Team</DropdownMenuItem>
