@@ -77,10 +77,11 @@ function MobileDropdown() {
         <MenuIcon />
       </DropdownMenuTrigger>
       <DropdownMenuContent className="mr-[2rem] border border-neutral-800 bg-neutral-950">
-        <DropdownMenuItem>Profile</DropdownMenuItem>
-        <DropdownMenuItem>Billing</DropdownMenuItem>
-        <DropdownMenuItem>Team</DropdownMenuItem>
-        <DropdownMenuItem>Subscription</DropdownMenuItem>
+        <DropdownMenuItem>About Meta</DropdownMenuItem>
+        <DropdownMenuItem>Shop</DropdownMenuItem>
+        <DropdownMenuItem>Education</DropdownMenuItem>
+        <DropdownMenuItem>Connection</DropdownMenuItem>
+        <DropdownMenuItem className="focus:bg-blue-600">Get Started</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
